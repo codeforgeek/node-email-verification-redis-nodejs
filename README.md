@@ -2,16 +2,14 @@ node-email-verification
 =======================
 Script to send and verify email account of user.
 
-Tutorial link : http://wp.me/p4ISPV-39
+Tutorial link : coming soon.
 
 How to use: 
 
-You can get the script in two ways:
+Open app.js and change the Mandrill API key.
 
-=> Either download the zip.
+Run ```node Server.js``` to start the Server.
 
-      OR
-      
-=> git clone https://github.com/codeforgeek/node-email-verification.git
+Visit ```localhost:3000``` from browser to view the app.
 
 Thanks.
