@@ -1,8 +1,12 @@
 {
-  "name": "email-node",
+  "name": "email-node-redis",
   "version": "1.0.0",
   "dependencies": {
-    "nodemailer": "~0.7.1",
-    "express": "~4.5.1"
+    "async": "^2.0.0-rc.5",
+    "body-parser": "^1.15.1",
+    "express": "~4.5.1",
+    "nodemailer": "latest",
+    "nodemailer-mandrill-transport": "^1.1.0",
+    "redis": "^2.6.0-2"
   }
 }
