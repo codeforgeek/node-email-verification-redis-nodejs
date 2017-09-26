@@ -25,7 +25,7 @@ var host = "localhost:3000";
 app.use(bodyParser.urlencoded({"extended" : false}));
 
 app.get('/',function(req,res){
-	res.sendfile('index.html');
+	res.sendFile('index.html');
 });
 app.post('/send',function(req,res) {
   console.log(req.body.to);
